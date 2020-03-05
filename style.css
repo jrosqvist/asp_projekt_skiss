@@ -1,0 +1,64 @@
+* {
+  font-family: "Mukta", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Teko", sans-serif;
+}
+/* Header med bild */
+#main-header {
+  background: url("parallax1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 75vh;
+}
+
+/* Huvudmeny */
+.nav-wraper {
+  /*background-color: transparent;*/
+  background-color: white;
+  color: black;
+  overflow: hidden;
+}
+
+.brand-logo  {
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+}
+.login-i {
+  line-height: 62px !important;
+}
+
+/* Sektioner */
+.big-section {
+  min-height: 200px;
+}
+
+/* Tabbar */
+.tabs .indicator {
+  background-color: black;
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
+
+/* Sidfot */
+.page-footer {
+  background-color: rgb(61, 61, 61) !important;
+}
+.footer-copyright {
+  background-color: rgb(49, 49, 49) !important;
+}
+footer a {
+  color: orange;
+}
+
+.btn {
+  text-transform: none !important;
+}
